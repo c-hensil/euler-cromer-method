@@ -3,7 +3,16 @@ from drafter import *
 from dataclasses import dataclass
 import matplotlib.pyplot as plt
 import math
-
+set_website_title("Euler Cromer Method")
+set_site_information(
+    author="Claudia Hensil",
+    description="Guides students through Euler Cromer Method",
+    sources="Drafter guides, in class lectures and Drafter LLM",
+    planning=["CS1 Final Project 1: Design.pdf", "CS1 Final Project 0: Pick a Problempdf"],
+    links=["https://github.com/c-hensil/euler-cromer-method"]
+)
+hide_debug_information()
+set_website_framed(False)
 # Distance represents a displacement value
 Distance = float
 
