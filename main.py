@@ -7,7 +7,7 @@ set_website_title("Euler Cromer Method")
 set_site_information(
     author="Claudia Hensil",
     description="Guides students through Euler Cromer Method",
-    sources="Drafter guides, in class lectures and Drafter LLM",
+    sources="LLM Drafter Communication.pdf",
     planning=["CS1 Final Project 1: Design.pdf", "CS1 Final Project 0: Pick a Problempdf"],
     links=["https://github.com/c-hensil/euler-cromer-method"]
 )
